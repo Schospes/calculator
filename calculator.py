@@ -14,9 +14,26 @@ import tkinter as tk
 entry = None
 
 
-def button_click(button_text, entry):
+def calculate(entry):
+    try:
+        result = eval(entry.get())
+        entry.delete(0, tk.END)
+        entry.insert(tk.END, result)
+    except Exception as e:
+        entry.delete(0, tk.END)
+        entry.insert(tk.END, "Error")
 
-    entry.insert(tk.END, button_text)
+
+def button_click(button, entry):
+    if button == "=":
+        calculate(entry)
+    elif button == "C":
+        clear_entry(entry)
+    else:
+        entry.insert(tk.END, button)
+
+def clear_entry(entry):
+    entry.delete(0, tk.END)
 
 
 def main():
