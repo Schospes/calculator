@@ -1,6 +1,6 @@
 # Calculator
 
-![Python Badge](https://img.shields.io/badge/python-%3E%3D%203.0-blue)
+![Python Badge](https://img.shields.io/badge/Python-3.0%2B-blue.svg?logo=python)
 
 A simple graphical calculator created using the `Tkinter` library in Python.
 
