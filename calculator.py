@@ -66,6 +66,7 @@ def main():
             row += 1
             column = 0
 
+
     # Main loop
     window.mainloop()
 
