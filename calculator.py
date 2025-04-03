@@ -1,15 +1,5 @@
 import tkinter as tk
-# Grundfunktionen
 
-# Addition
-
-# Subtraktion
-
-# Multiplikation
-
-# Division
-
-# Add number to entry field
 
 entry = None
 
